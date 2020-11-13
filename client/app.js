@@ -1,6 +1,7 @@
 import React from 'react'
 
 import {Navbar} from './components'
+import Hello from './components/Hello'
 import Routes from './routes'
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <div>
       <Navbar />
       <Routes />
+      <Hello />
     </div>
   )
 }
