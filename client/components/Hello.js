@@ -9,7 +9,7 @@ export default function Hello() {
           data-aos-anchor="#top"
           data-aos-anchor-placment="top-center"
           data-aos-delay="150"
-          data-aos="fade-up"
+          data-aos="fade-up-right"
           className="aos-init-aos-animate"
         >
           Hello! My Name is
@@ -19,7 +19,7 @@ export default function Hello() {
           data-aos-anchor="#top"
           data-aos-anchor-placment="top-center"
           data-aos-delay="300"
-          data-aos="fade-up"
+          data-aos="fade-up-right"
           className="aos-init-aos-animate"
         >
           Jake Armijo.
@@ -29,7 +29,7 @@ export default function Hello() {
           data-aos-anchor="#top"
           data-aos-anchor-placment="top-center"
           data-aos-delay="450"
-          data-aos="fade-up"
+          data-aos="fade-up-right"
           className="aos-init-aos-animate"
         >
           I'm a software engineer.
@@ -40,7 +40,7 @@ export default function Hello() {
         data-aos-anchor="#top"
         data-aos-anchor-placment="top-center"
         data-aos-delay="600"
-        data-aos="fade-up"
+        data-aos="fade-up-right"
         className="aos-init-aos-animate"
       >
         <a href="#projects">View Portfolio</a>

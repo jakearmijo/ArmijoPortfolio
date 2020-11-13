@@ -7,10 +7,6 @@ import Routes from '../routes'
 
 const Navbar = ({handleClick, isLoggedIn}) => (
   <div>
-    <a href="top" id="logo">
-      Armijo Algorithm
-    </a>
-    {/* <a href="top" id="logo">Algorithm</a> */}
     <nav>
       {isLoggedIn ? (
         <div className="nav-links">
@@ -35,13 +31,19 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           <Link to="/about">ABOUT</Link>
           <Link to="/resume">RESUME</Link>
           <Link to="/contact">CONTACT</Link>
-          <Link to="https://github.com/jakearmijo">GITHUB</Link>
-          <Link to="https://www.linkedin.com/in/jake-armijo/">LINKEDIN</Link>
+          <a href="https://github.com/jakearmijo">GITHUB</a>
+          <a href="https://www.linkedin.com/in/jake-armijo/">LINKEDIN</a>
         </div>
       )}
     </nav>
-    {/* <hr /> */}
-    {/* <Routes /> */}
+    <div>
+      <a href="top" id="logo">
+        Armijo Algorithm
+      </a>
+    </div>
+    <div className="routesDiv">
+      <Routes />
+    </div>
   </div>
 )
 
