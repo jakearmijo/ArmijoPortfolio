@@ -114,7 +114,7 @@ export default function AboutMe() {
               <span className="tooltiptext">GitHub</span>
             </div>
             <div className="tech tooltip">
-              <img src="Npm-Logo.png" alt="Npm" />
+              <img src="Npm-logo.png" alt="Npm" />
               <span className="tooltiptext">Npm</span>
             </div>
             <div className="tech tooltip">

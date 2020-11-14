@@ -64,6 +64,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "sequelize": "^5.22.3",
+    "serve": "^11.3.2",
     "socket.io": "^2.3.0",
     "styled-components": "^5.2.1",
     "styled-components-carousel": "^0.2.0"
