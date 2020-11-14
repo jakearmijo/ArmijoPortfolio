@@ -20,23 +20,23 @@ export default function AboutMe() {
           ></div>
 
           <p data-aos="fade-up" id="pIntro" className="aos-init aos-animate">
-            [Hello, World, !] My name is Jake Armijo. I am embedded with a love
-            to create things. As a kid, I had Legos and Erector sets. As an
+            [ Hello, World, ! ] My name is Jake Armijo. I am embedded with a
+            love to create things. As a kid, I had Legos and Erector sets. As an
             adult, I received a degree in Applied Engineering and went into the
             construction field. I have been a PM and cost estimator working for
-            the last 5 years. What I enjoy about construction is collaborating
+            the last 5 years. What I like about construction is collaborating
             with teams, working on a wide variety of projects, battling critical
             timelines, and successfully completing goals. I enjoyed what I was
             doing in the construction industry and it was exciting to see your
             hard work go from plan to product, what I found was missing was that
-            innovation wasn’t there. It always interested me to see how I could
-            use tech to do my job better. I researched coding, and coding boot
-            camps, leveraged a lot of free resources and I landed on joining
-            FullStack Academy. Now it has been a challenging ride filled with
-            peaks and valleys, but hard work always pays off! I am looking to
-            join an innovative company where I can leverage my past experiences
-            in project management and teamwork combined with my bootcamp
-            education to create new exciting things and make old ones better.
+            it simply wasn’t enough. It always interested me to see how I could
+            use technology. I researched coding, and coding boot camps leveraged
+            a lot of free resources and I landed on joining FullStack Academy.
+            Now it has been a challenging ride filled with peaks and valleys,
+            but hard work always pays off! I am looking to join an innovative
+            company where I can leverage my past experiences in project
+            management and teamwork combined with my Bootcamp education to
+            create new exciting things and make old ones better.
           </p>
         </div>
       </div>
