@@ -55,6 +55,80 @@ export default function AboutMe() {
               <img src="ReactLogo.png" alt="React" />
               <span className="tooltiptext">React</span>
             </div>
+            <div className="tech tooltip">
+              <img src="ReduxLogo.png" alt="Redux" />
+              <span className="tooltiptext">Redux</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="HTMLLogo.png" alt="HTML" />
+              <span className="tooltiptext">HTML</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="CSSLogo.png" alt="CSS" />
+              <span className="tooltiptext">CSS</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="styled-components.png" alt="Styled Components" />
+              <span className="tooltiptext">Styled Components</span>
+            </div>
+          </div>
+          <div
+            className="techDiv aos-init aos-animate"
+            id="backend"
+            data-aos="fade-up"
+          >
+            <div className="techDivTitle">BackEnd</div>
+            <div className="tech tooltip">
+              <img src="NodeLogo.png" alt="Node" />
+              <span className="tooltiptext">Node</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="ExpressLogo.png" alt="Express" />
+              <span className="tooltiptext">Express</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="SequelizeLogo.png" alt="HTML" />
+              <span className="tooltiptext">Sequelize</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="PostgresLogo.png" alt="CSS" />
+              <span className="tooltiptext">Postgres</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="SocketIO.png" alt="Socket.io" />
+              <span className="tooltiptext">Socket.io</span>
+            </div>
+          </div>
+          <div
+            className="techDiv aos-init aos-animate"
+            id="devops"
+            data-aos="fade-up"
+          >
+            <div className="techDivTitle">DevOps</div>
+            <div className="tech tooltip">
+              <img src="GitLogo.png" alt="Git" />
+              <span className="tooltiptext">Git</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="GitHubLogo.png" alt="GitHub" />
+              <span className="tooltiptext">GitHub</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="Npm-Logo.png" alt="Npm" />
+              <span className="tooltiptext">Npm</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="WebpackLogo.png" alt="Webpack" />
+              <span className="tooltiptext">Webpack</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="HerokuLogo.png" alt="Heroku" />
+              <span className="tooltiptext">Heroku</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="TravisCILogo.png" alt="TravisCI" />
+              <span className="tooltiptext">TravisCI</span>
+            </div>
           </div>
         </div>
       </div>
