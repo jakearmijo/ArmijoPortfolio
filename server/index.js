@@ -9,6 +9,7 @@ const db = require('./db')
 const sessionStore = new SequelizeStore({db})
 const PORT = process.env.PORT || 8080
 const app = express()
+const chalk = require('chalk')
 const socketio = require('socket.io')
 module.exports = app
 
@@ -57,7 +58,7 @@ const createApp = () => {
       secret: process.env.SESSION_SECRET || 'my best friend is Cody',
       store: sessionStore,
       resave: false,
-      saveUninitialized: false
+      saveUninitialized: false,
     })
   )
   app.use(passport.initialize())
@@ -97,7 +98,7 @@ const createApp = () => {
 const startListening = () => {
   // start listening (and create a 'server' object representing our server)
   const server = app.listen(PORT, () =>
-    console.log(`Mixing it up on port ${PORT}`)
+    console.log(chalk.bold.cyan(`Full Send on ${PORT}`))
   )
 
   // set up our socket control center

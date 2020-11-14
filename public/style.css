@@ -149,6 +149,8 @@ h1 {
   padding-right: 20px;
 }
 
+/* PROJECT SECTION */
+
 #projectButton a,
 .projectLinks a,
 #resumeMain a,
@@ -175,7 +177,91 @@ h1 {
   font-weight: bold;
 }
 
+.projectTitle {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  font-size: 2.5rem;
+}
+
 .phutbol {
   display: flex;
   justify-content: center;
+}
+
+.carousel-container {
+  width: 850px;
+  height: 450px;
+  position: relative;
+  margin: auto;
+}
+
+.projectImage {
+  width: 800px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text {
+  color: #ffa500;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+p {
+  color: #333333;
+  font-size: 1.2em;
+  line-height: 1.6;
+  padding: 20px;
+  width: 600px;
+}
+
+.p-project {
+  width: 850px;
+}
+
+.p-tech {
+  padding-top: 0px;
+}
+
+.projectLinks a,
+#resumeMain a,
+.btn-box button {
+  font-size: 1rem;
+  border: 2px solid #333333;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-right: 0px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.projectLinks a img,
+.btn img {
+  width: 19px;
+  height: 19px;
+  position: relative;
+  top: 4.5px;
+  margin-left: 5px;
+}
+#skillsDiv,
+#hobbies,
+#phutbol,
+#graceshopper,
+#stackawat,
+#resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
