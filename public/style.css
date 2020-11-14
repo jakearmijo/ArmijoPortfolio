@@ -181,6 +181,7 @@ h1 {
   display: flex;
   justify-content: center;
   padding-bottom: 15px;
+  padding-top: 15px;
   font-size: 2.5rem;
 }
 
@@ -264,4 +265,112 @@ p {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+#stackawat,
+#graceshopper {
+  padding-top: 85px;
+}
+
+#selfpic {
+  width: 320px;
+  height: 320px;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  background-image: url(/Family-Photo.jpeg);
+  background-color: #1b1c1c;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 60px;
+  filter: grayscale(1);
+  transition: all 1s ease;
+  border: 5px solid #333333;
+}
+
+#aboutMeMain,
+#hobbiesMain,
+#skillsMain {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #333333;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 85px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333333;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#skillsMain {
+  flex-direction: row;
+  width: 1000px;
+}
+
+.techDiv {
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px;
+  border: 1px solid #333333;
+  margin: 6px;
+}
+
+.techDivTitle {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #333333;
+  color: white;
+  padding: 5px;
+}
+
+.tech img {
+  width: 64px;
+  max-height: 70px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #ffa500;
+  color: #333333;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.tooltip .tooltiptext::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #ffa500 transparent;
 }
