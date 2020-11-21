@@ -18,10 +18,11 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 70px;
+  height: 100px;
   position: fixed;
   width: 100%;
   max-width: 100vw;
+  background-color: white;
   z-index: 10000;
 }
 
@@ -94,11 +95,12 @@ form div {
   height: 110px;
   font-size: 1.75rem;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   border-bottom-right-radius: 40%;
   border-top-left-radius: 40%;
   transition: all 0.3s ease;
+  z-index: 11000;
 }
 
 /* start of styling */
@@ -378,7 +380,6 @@ h3 {
 #hobbiesPics {
   display: flex;
   width: 320px;
-  height: 160px;
   flex-wrap: wrap;
   justify-content: center;
   margin-left: 40px;
@@ -403,6 +404,82 @@ h3 {
 }
 #coffee {
   background-image: url(/coffee.png);
+}
+
+#resumeMain a img {
+  width: 19px;
+  height: 19px;
+  position: relative;
+  top: 4px;
+  margin-left: 5px;
+}
+
+#resumeMain a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+form {
+  width: 320px;
+  margin: 45px auto;
+  display: block;
+}
+
+input,
+textarea {
+  background: none;
+  color: #333333;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 320px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #333333;
+}
+input {
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: textfield;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+
+.group {
+  position: relative;
+  margin: 45px 0;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+div[role='alert'] {
+  color: red;
+  margin-top: 1em;
+}
+
+.message-chars-left {
+  width: 600px;
+  margin: auto;
+  text-align: left;
 }
 
 /* START OF PHONE AND OTHER MEDIA RESIZING */
