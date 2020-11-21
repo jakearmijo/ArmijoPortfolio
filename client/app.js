@@ -3,6 +3,7 @@ import React from 'react'
 import {Navbar} from './components'
 import AboutMe from './components/AboutMe'
 import Hello from './components/Hello'
+import Hobbies from './components/Hobbies'
 import Projects from './components/Projects'
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Hello />
       <Projects />
       <AboutMe />
+      <Hobbies />
     </div>
   )
 }

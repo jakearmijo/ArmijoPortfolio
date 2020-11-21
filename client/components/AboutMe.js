@@ -71,6 +71,10 @@ export default function AboutMe() {
               <img src="styled-components.png" alt="Styled Components" />
               <span className="tooltiptext">Styled Components</span>
             </div>
+            <div className="tech tooltip">
+              <img src="Bootstrap-Logo.png" alt="Bootstrap" />
+              <span className="tooltiptext">Bootstrap</span>
+            </div>
           </div>
           <div
             className="techDiv aos-init aos-animate"
@@ -128,6 +132,55 @@ export default function AboutMe() {
             <div className="tech tooltip">
               <img src="TravisCILogo.png" alt="TravisCI" />
               <span className="tooltiptext">TravisCI</span>
+            </div>
+          </div>
+          <div
+            className="techDiv aos-init aos-animate"
+            id="languages"
+            data-aos="fade-up"
+          >
+            <div className="techDivTitle">Languages</div>
+            <div className="tech tooltip">
+              <img src="Javascript-Logo.png" alt="Javascript" />
+              <span className="tooltiptext">Javascript</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="Python-Logo.png" alt="Python" />
+              <span className="tooltiptext">Python</span>
+            </div>
+          </div>
+          <div
+            className="techDiv aos-init aos-animate"
+            id="tools"
+            data-aos="fade-up"
+          >
+            <div className="techDivTitle">Tools</div>
+            <div className="tech tooltip">
+              <img src="VSCODE-Logo.png" alt="VSCode" />
+              <span className="tooltiptext">VS Code</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="Postman-Logo.png" alt="Postman" />
+              <span className="tooltiptext">Postman</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="Postico-Logo.png" alt="Postico" />
+              <span className="tooltiptext">Postico</span>
+            </div>
+          </div>
+          <div
+            className="techDiv aos-init aos-animate"
+            id="testing"
+            data-aos="fade-up"
+          >
+            <div className="techDivTitle">Testing</div>
+            <div className="tech tooltip">
+              <img src="Mocha-Logo.png" alt="Mocha" />
+              <span className="tooltiptext">Mocha</span>
+            </div>
+            <div className="tech tooltip">
+              <img src="Chai-Logo.png" alt="Chai" />
+              <span className="tooltiptext">Chai</span>
             </div>
           </div>
         </div>
