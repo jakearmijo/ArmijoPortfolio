@@ -482,6 +482,30 @@ div[role='alert'] {
   text-align: left;
 }
 
+#footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+  width: 320px;
+}
+
+#footer-links a {
+  transition: transform 0.2s ease-in-out;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-links img {
+  width: 30px;
+  height: 30px;
+}
+
 /* START OF PHONE AND OTHER MEDIA RESIZING */
 
 @media only screen and (max-width: 1000px) {

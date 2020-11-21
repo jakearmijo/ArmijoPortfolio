@@ -3,6 +3,7 @@ import React from 'react'
 import {Navbar} from './components'
 import AboutMe from './components/AboutMe'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import Hello from './components/Hello'
 import Hobbies from './components/Hobbies'
 import Projects from './components/Projects'
@@ -19,6 +20,7 @@ const App = () => {
       <Hobbies />
       <Resume />
       <Contact />
+      <Footer />
     </div>
   )
 }
