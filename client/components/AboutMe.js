@@ -156,7 +156,7 @@ export default function AboutMe() {
           >
             <div className="techDivTitle">Tools</div>
             <div className="tech tooltip">
-              <img src="VSCODE-Logo.png" alt="VSCode" />
+              <img src="VSCODE-logo.png" alt="VSCode" />
               <span className="tooltiptext">VS Code</span>
             </div>
             <div className="tech tooltip">
@@ -164,7 +164,7 @@ export default function AboutMe() {
               <span className="tooltiptext">Postman</span>
             </div>
             <div className="tech tooltip">
-              <img src="Postico-Logo.png" alt="Postico" />
+              <img src="Postico-logo.png" alt="Postico" />
               <span className="tooltiptext">Postico</span>
             </div>
           </div>
