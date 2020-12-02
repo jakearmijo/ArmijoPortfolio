@@ -387,6 +387,16 @@ h3 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.hobbiesIcon {
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
 #videogames {
   background-image: url(/pc-gaming-icon.png);
 }

@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Hello from './components/Hello'
 import Hobbies from './components/Hobbies'
+import Meeting from './components/Meeting'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
 
@@ -15,6 +16,7 @@ const App = () => {
       <Navbar />
       {/* <Routes /> */}
       <Hello />
+      <Meeting />
       <Projects />
       <AboutMe />
       <Hobbies />
