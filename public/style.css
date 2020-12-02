@@ -533,12 +533,12 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-  .slideshow-container {
+  /* .slideshow-container {
     width: 100%;
     height: 56.25vw;
     position: relative;
     margin: auto;
-  }
+  } */
 
   #recipix,
   #racehopper,
