@@ -8,6 +8,11 @@ import {Link} from 'react-scroll'
 const Navbar = ({handleClick, isLoggedIn}) => (
   <div>
     <nav>
+      <div>
+        <a href="top" id="logo">
+          Armijo Algorithm
+        </a>
+      </div>
       {isLoggedIn ? (
         <div className="nav-links">
           {/* The navbar will show these links after you log in */}
@@ -52,11 +57,11 @@ const Navbar = ({handleClick, isLoggedIn}) => (
         </div>
       )}
     </nav>
-    <div>
+    {/* <div>
       <a href="top" id="logo">
         Armijo Algorithm
       </a>
-    </div>
+    </div> */}
   </div>
 )
 
